@@ -7,7 +7,7 @@ void main()
 {
 char* filename_ini= (char*)malloc(sizeof(char)*100);
 char* filename= (char*)malloc(sizeof(char)*100);
-Mi man;int i=1; char c='Y'; char* path= "../record/";
+Mi man;int i=1; char c='Y'; char* path= "../record/"; //The information will be saved in the directory record (just outside Current directory)
 puts("Enter the file name:");
 gets(filename_ini);
 sprintf(filename, "%s%s", path,filename_ini);
